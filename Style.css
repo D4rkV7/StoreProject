@@ -1,0 +1,77 @@
+body {
+    background-color: green;
+    color: yellow;
+}
+/*Styling the list of items in the nav bar */
+nav ul {
+    display:flex;
+    flex-wrap:wrap;
+    margin:0;
+    padding:0;
+}
+/*Styling the space of each item */
+nav li {
+    list-style:none;
+    background-color: black;
+    color: azure;
+    margin:0;
+    flex:1;
+    min-width:200px;
+    text-align:center;
+    display: flex;
+}
+/*Styling the link, both unvisited and visited */
+nav a, nav a:visited {
+    text-decoration:none;
+    width:100%;
+    padding:8px 0px;
+    color: yellow;
+}
+/* Hovering over a link and the active (current)*/
+nav a:hover, nav a.active {
+    color:white;
+    background-color:darkslategrey;
+}
+.mainbox {
+    display: flex;
+    justify-content:space-around;
+}
+.picture{
+    width: 350px;
+    height: 200px;
+    justify-content: space-between;
+}
+.card-area {
+    display:flex;
+    flex-wrap:warp;
+}
+.card {
+    height:300px;
+    width:275px;
+    min-width: 100px;
+    background-color: darkgreen;
+    border: 2px solid white;
+    border-radius: 9px;
+    margin:16px;
+}
+.avatar {
+    padding-top: 8px ;
+    padding-right: 0px;
+    padding-left: 8px;
+    width:200px;
+    height:200px;
+    justify-content: center;
+    margin: 0 0 0 29px;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 24px 8px yellow;
+}
+.top {
+    display: flex;
+}
+/*fake style*/
+.fake{
+color:white
+}
+
